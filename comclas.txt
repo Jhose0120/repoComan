@@ -24,3 +24,10 @@ git merge origin/master // bajamos los cambios de la rama deseada para el ejempl
 2 -  con pull 
 git pull origin master // realiza el fetch y merge de forma automatica en la rama ingresada en este caso "master"
 */
+git tag // Nos permite ver los tags creados
+git tag -a |nombre del tag| -m "Descripcion del tag" / Nos permite crear un tag, se usan generalmente para liberar versiones o release
+git tag -l "texto" // nos permite hacer una busqueda especifica del tag y esta sera de tipo contiene
+git tag -d |nombre del tag| //nos permite eliminar un tag especifico
+git push origin |nombre del tag| //nos permite subir el tag al remoto
+git log //Nos permite ver la trazabilidad de nuestras versiones
+git checkout -- |nombre del fichero| nos permite devolver los cambios realizados al ultimo commit realizado
