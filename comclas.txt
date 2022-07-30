@@ -1,2 +1,11 @@
 // Comandos utilizados 
 mkdir name // crear carpeta
+git init // se usa dentro de la carpeta que sera nuestro repositorio
+ls // Nos ayuda a ver el estado de la rama y lo que se encuentra dentro de ella
+cat // consultar la configuracion del directorio
+git add // nos permite agregar ficheros a nuestro repositorio
+git status // Nos permite saber en que estado se encuentran los ficheros
+git add "Nombre fichero" // agregar fichero especifico
+git add . // agrega todos los ficheros en el directorio
+git commit // Nos permite crear nuestras versiones 
+git commit -m "Descripcion de las versiones" //Nos permite versionar sin entrar a otra pantalla colocando el mensaje directamente
