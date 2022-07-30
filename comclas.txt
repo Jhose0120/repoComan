@@ -13,3 +13,5 @@ git checkout -b "Nombre de rama" // Crea una nueva rama y te ubica en ella
 git branch // Nos muestra las ramas actuales y con asterisco se indica la que esta en uso
 git checkout "Nombre rama" // Nos permite cambiarnos a la rama deseada
 git merge "Nombre de la rama de la cual queremos bajar cambios" //Nos permite traer los cambios realizados en otra rama.
+git branch -d "Nombre de rama" // Permite borrar una rama pero si esta cuenta con cambios los cuales no se les ha hecho merge colocara alerta
+git branch -D "Nombre de rama" // Borra rama sin tener en cuenta si se han bajado cambios
