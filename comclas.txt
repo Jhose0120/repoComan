@@ -17,3 +17,10 @@ git branch -d "Nombre de rama" // Permite borrar una rama pero si esta cuenta co
 git branch -D "Nombre de rama" // Borra rama sin tener en cuenta si se han bajado cambios
 git remote add origin https://github.com/Jhose0120/repoComan.git // Nos crea una conexion entre nuestro repositorio local con el remoto
 git push origin master // Nos permite subir nuestra ultima version local al repositorio remoto 
+/* Pasos para bajar cambios de remoto
+1 -  con dos comandos
+git fetch // con el cual validamos si hay cambios
+git merge origin/master // bajamos los cambios de la rama deseada para el ejemplo es "master"
+2 -  con pull 
+git pull origin master // realiza el fetch y merge de forma automatica en la rama ingresada en este caso "master"
+*/
