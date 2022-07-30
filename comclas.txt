@@ -2,10 +2,13 @@
 mkdir name // crear carpeta
 git init // se usa dentro de la carpeta que sera nuestro repositorio
 ls // Nos ayuda a ver el estado de la rama y lo que se encuentra dentro de ella
-cat // consultar la configuracion del directorio
+cat "Nombre de fichero" // Nos permite ver el contenido de un fichero //consultar la configuracion del directorio
 git add // nos permite agregar ficheros a nuestro repositorio
 git status // Nos permite saber en que estado se encuentran los ficheros
 git add "Nombre fichero" // agregar fichero especifico
 git add . // agrega todos los ficheros en el directorio
 git commit // Nos permite crear nuestras versiones 
 git commit -m "Descripcion de las versiones" //Nos permite versionar sin entrar a otra pantalla colocando el mensaje directamente
+git checkout -b "Nombre de rama" // Crea una nueva rama y te ubica en ella
+git branch // Nos muestra las ramas actuales y con asterisco se indica la que esta en uso
+git checkout "Nombre rama" // Nos permite cambiarnos a la rama deseada
