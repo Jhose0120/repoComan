@@ -1,0 +1,25 @@
+Forks en git
+1 escenario yo colaboro en el proyecto de alguien mas 
+	1- busco a la persona o proyecto
+	2- seleccionamos el proyecto 
+	3- seleccionamos fork // El sistema crea una copia del proyecto.
+	4- accedemos al proyecto
+	5- alteramos el fichero en el que deseamos colaborar
+	6- commitiamos los cambios
+	7- Nos dirigimos a la vista principal de nuestra copia
+	8- seleccionamos pull request
+	9- seleccionamos new pull request
+	10- seleccionamos el repositorio al cual le queremos hacer la pull request
+	11- seleccionamos la rama a la cual realizaremos el pull request
+	12- seleccionamos nuestra repositorio
+	13- seleccionamos la rama desde la cual haremos el request
+	14- seleccionamos create new pull request
+	15- Se agrega comentario del porque del cambio (opcional)
+	16- nuevamente seleccionamos la opcion create new request
+2 escenario recibo una colaboracion (pull request)
+	1- accedemos al proyecto donde se nos genero la pull request
+	2- seleccionamos pull request
+	3- accedemos a la pull request.
+	4- podemos realizar solicitud a la persona que hizo la pull request
+	5- damos clic en merge pull request para aceptar los cambios del colaborador
+	6- Confirmamos merge
