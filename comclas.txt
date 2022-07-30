@@ -31,3 +31,4 @@ git tag -d |nombre del tag| //nos permite eliminar un tag especifico
 git push origin |nombre del tag| //nos permite subir el tag al remoto
 git log //Nos permite ver la trazabilidad de nuestras versiones
 git checkout -- |nombre del fichero| nos permite devolver los cambios realizados al ultimo commit realizado
+cambio para validar en kraken
