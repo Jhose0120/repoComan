@@ -1,0 +1,2 @@
+// Comandos utilizados 
+mkdir name // crear carpeta
