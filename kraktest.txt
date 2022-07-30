@@ -1,2 +1,3 @@
 Nuevo fichero para validar kraken
+actualizar feature 2
 actualizar para hosxfit
