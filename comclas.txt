@@ -12,3 +12,4 @@ git commit -m "Descripcion de las versiones" //Nos permite versionar sin entrar 
 git checkout -b "Nombre de rama" // Crea una nueva rama y te ubica en ella
 git branch // Nos muestra las ramas actuales y con asterisco se indica la que esta en uso
 git checkout "Nombre rama" // Nos permite cambiarnos a la rama deseada
+git merge "Nombre de la rama de la cual queremos bajar cambios" //Nos permite traer los cambios realizados en otra rama.
